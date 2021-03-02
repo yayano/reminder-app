@@ -135,7 +135,7 @@ class App extends Component {
           }}
         >
           <i className="fa fa-trash"></i>
-          Clear Reminders
+          Clear All Reminders
         </button>
         <Modal show={this.state.displayChecked} onHide={() => handlehide()}>
           <Modal.Header>Completed !!!</Modal.Header>
