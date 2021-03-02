@@ -1,0 +1,52 @@
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 86, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.App {
+  position: relative;
+  display: block;
+  background: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  width: 400px;
+  margin: 20px auto;
+  padding: 10px;
+  background-position: center center;
+  border-radius: 10px;
+}
+
+.react-datepicker__input-container,
+.react-datepicker-wrapper {
+  display: block;
+}
+
+.clear {
+  margin-bottom: 10px;
+}
+
+.form-control {
+  margin: 10px 0;
+}
+
+.App img {
+  margin: 0 100px;
+  width: 200px;
+  height: 150px;
+}
+
+.history button {
+  display: inline-block;
+  width: 40%;
+  margin: 5%;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: left;
+  line-height: 20px;
+}
+.history button i {
+  margin: 5px;
+}
